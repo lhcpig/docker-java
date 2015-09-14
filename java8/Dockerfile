@@ -1,8 +1,8 @@
 FROM centos:centos7
-MAINTAINER ¡°lhcpig¡± <lhcpig@qq.com>
+MAINTAINER lhcpig <lhcpig@qq.com>
 
 ENV container docker
-RUN yum -y update; yum clean all
+#RUN yum -y update; yum clean all
 RUN yum install -y java-1.8.0-openjdk; yum clean all
 
 
